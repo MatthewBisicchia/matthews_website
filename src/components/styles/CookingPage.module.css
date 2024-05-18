@@ -1,0 +1,32 @@
+#cooking {
+    background-color: rgb(238, 94, 65);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Arial';
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+#picture {
+    text-align: center;
+}
+
+.foods p {
+    font-size: 18px;
+    font-family: 'Arial';
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.foods {
+    text-align: center;
+}
+
+.image {
+    width: 95%;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,406 @@
+/* * {    
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+#profilePictureContainer {
+   text-align: center;
+   margin: 5px;
+}
+
+#profilePicture {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#topSection {
+    /* position: static; */
+    /* display: flex; */
+    padding: 60px;
+    height: 30vh;  
+    /* background-color: #0272b3; */
+    /* background-color: #0e8834; */
+    background-color: black;
+    /* background-size: 100% auto; */
+    /* border-bottom: 4px solid maroon; */
+    border-bottom: 4px solid maroon;
+}
+
+.buttonText {
+    text-decoration: none;
+    color: black;
+}
+
+#homePageButton {
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Arial';
+    /* background-color: rgb(211, 209, 209); */
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 300px;
+    border: 2px solid maroon;
+    user-select: none;
+    text-decoration: none;
+}
+
+#homePageButton:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(131, 137, 154);
+}
+
+#galleryLabel {
+    /* color: white; */
+    color: gold;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+    background-size: 100% auto;
+    border-bottom: 4px solid maroon;
+}
+
+/* @keyframes unblur {
+    to   { backdrop-filter: blur(0px); }
+} */
+
+#nameAndProfession {
+    position: absolute;
+    font-family: 'Arial';
+    text-align: center;  
+    
+    justify-content: center;
+    background-color: rgb(250, 245, 245);
+    border: 10px solid black;
+    top: 110px;
+    left: 35px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 500px;
+    height: 48px;
+}
+
+#photoCredit {
+    
+    position: absolute;
+    font-family: 'Arial';
+    text-align: center;
+  
+    
+    justify-content: center;
+    background-color: rgb(250, 245, 245);
+    border: 2px solid black;
+    margin-top: 550px;
+    margin-left: 7%;
+    font-size: 20px;
+    width: 300x;
+    height: 30px;
+}
+
+#scrollDown {
+
+    position: absolute;
+    font-family: 'Arial';
+    text-align: center;
+  
+    
+    justify-content: center;
+    background-color: rgb(250, 245, 245);
+    border: 2px solid black;
+    top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0; 
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    height: 20px;
+}
+
+#imageAndIntro {
+    margin: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 5px rgb(116, 109, 109);
+}
+
+
+.interests {
+    padding: 20px;
+    font-family: 'Arial';
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+    color:rgb(250, 245, 245);
+    -webkit-text-stroke: 1.7px black;
+}
+
+#ethic {
+    padding: 20px;
+    font-family: 'Arial';
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+    color:rgb(250, 245, 245);
+    -webkit-text-stroke: 1.7px black;
+}
+
+
+#middleSection {
+    height: 100vh;
+ 
+    /* background-image: url('../../images/philly2.jpg'); */
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-color: #cccccc;
+    background-size: 100% auto;
+}
+
+#experienceToolsSection {
+    height: 100vh;
+    /* background-image: url('../../images/philly3.JPG'); */
+    background-attachment: fixed;
+
+    background-color: #cccccc;
+    background-size: 100% auto;
+}
+
+.commentarySection {
+    white-space: pre-wrap;
+    padding: 60px; 
+    color: black;
+    font-size: 17px;
+    font-family: 'Arial';
+}
+
+#menuSection{
+    padding: 50px;
+    background-color: silver;
+    font-family:'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    z-index: 2;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top: 4px solid black;
+}
+
+#items {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.item {
+    background-color: rgb(241, 238, 238);
+    font-family: 'Arial';
+    font-size: 25px;
+    margin: 25px;
+    height: 200px; 
+    width: 350px;
+    border-radius: 20px;
+    border: 4px solid black;
+    z-index: 3;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgb(177, 168, 168);
+    cursor: pointer;
+    user-select: none;
+}
+
+.item:hover{
+    /* background-color: rgb(248, 235, 118); */
+    /* border: 5px solid black; */
+    transition: 0.30s;
+    box-shadow: 0 0 0 8px #000000;  
+}
+
+
+.itemTitle
+{
+    background-color: rgb(32, 83, 194);
+    color: white;
+    font-weight: 400px;
+    z-index: 1;
+
+}
+
+.itemEntry {
+    margin: 10px;
+    font-size: 20px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+#myDashboardApp {
+    
+
+
+}
+
+#myDashboardImage {
+    max-width:100%;
+    max-height:100%;
+    
+
+}
+
+#myResumeImage {
+    max-width:100%;
+    max-height:100%;
+    
+
+
+    
+}
+
+#myDashboardGitHubImage {
+    max-width:100%;
+    max-height:100%;
+    
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+#myProjectsButton {
+    display: flex;
+    margin-right: 15px;
+    background-color: rgb(21, 123, 182);
+    border-radius: 10px;
+    padding: '3px';
+    color: white;
+    width: 110px;
+    height: 15px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    user-select: none; 
+    border: 3px solid rgb(4, 69, 16);
+}
+
+#myProjectsButton:hover {   
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+    /* background-color: rgb(255, 235, 163); */
+    background-color: rgb(255, 208, 38);
+    padding: 10px;
+    /* border: 3px solid orangered; */
+    border: 3px solid maroon;
+}
+
+#myResumeButton {
+    display: flex;
+    margin-right: 15px;
+    background-color: rgb(61, 165, 38);
+    border-radius: 10px;
+    padding: '3px';
+    color: white;
+    width: 110px;
+    height: 15px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    user-select: none; 
+    border: 3px solid rgb(4, 69, 16);
+}
+
+#myResumeButton:hover {   
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+    /* background-color: rgb(255, 235, 163); */
+    background-color: rgb(255, 208, 38);
+    padding: 10px;
+    /* border: 3px solid orangered; */
+    border: 3px solid maroon;
+}
+
+
+
+@media (max-width: 990px) {
+
+    /* #nameAndProfession {
+        position: static;
+        display: flex;
+        margin-top: 40%;
+    } */
+
+    #profilePicture {
+        /* height: auto;
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 24%;
+        right: 45px;
+        margin-right: 12%;
+        align-items: center;
+        display: flex;         */
+    }
+
+    #topSection {
+        /* position: static; */
+        /* display: flex; */
+        padding: 60px;
+        height: 33vh;  
+        /* background-color: #0272b3; */
+        /* background-color: #0e8834; */
+        background-color: black;
+        /* background-size: 100% auto; */
+        /* border-bottom: 4px solid maroon; */
+    }
+    
+    #homePageButton {
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: 'Arial';
+        /* background-color: rgb(211, 209, 209); */
+        background-color: white;
+        border-radius: 10px;
+        font-size: 25px;
+        width: auto;
+        border: 2px solid maroon;
+        user-select: none;
+    }
+
+    
+
+    /* #scrollDown {
+        display: flex;
+        margin-top: 140%;
+    } */
+
+    /* #topSection {
+
+        background-position: center;
+
+    } */
+
+}

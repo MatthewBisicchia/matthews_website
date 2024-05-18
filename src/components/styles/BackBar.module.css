@@ -1,0 +1,57 @@
+#header {
+    /* background-color: rgb(40, 40, 163); */
+    background-color: #000000;
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    font-family: 'Arial';
+    font-size: 30px;
+    font-style: italic;
+    
+    /* border-bottom: 4px solid maroon; */
+    position: fixed;
+    z-index: 5;
+}
+
+#arrowBack {
+    top: 50px;
+}
+
+#text {
+    text-decoration: none;
+    color: white;
+}
+
+#text:hover {
+    text-decoration: none;
+    transition: 0.5s;
+    color: gold;
+}
+
+@media (max-width: 990px) {
+
+    #header {
+        height: 50px;
+        /* background-color: rgb(40, 40, 163); */
+        background-color: #000000;
+        margin-top: 0px;
+        margin-top: 50px;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-family: 'Arial';
+        font-size: 30px;
+        font-style: italic;
+        
+        /* border-bottom: 4px solid maroon; */
+        z-index: 5;
+    }
+
+    #headerButtons {
+        margin-top: 1.5%;
+        justify-content: center;
+        position: static;
+    }
+}
