@@ -6,15 +6,15 @@ import CookingPage from './components/CookingPage.js';
 const routes = 
 [
     {
-        path: 'home', 
+        path: 'matthews_website/home', 
         element: <HomePage />
     },
     {
-        path: 'about', 
+        path: 'matthews_website/about', 
         element: <AboutPage />
     },
     {
-        path: 'cooking', 
+        path: 'matthews_website/cooking', 
         element: <CookingPage />
     },
 ];
