@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-// import { Close as CloseIcon } from "@material-ui/icons";
-// import { ArrowBack as ArrowBackIcon } from "@material-ui/icons";
-// import { ArrowForward as ArrowForwardIcon } from "@material-ui/icons";
+
+import CloseIcon from '@mui/icons-material/Close';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 import './styles/Gallery.css';
 
 const Gallery = () => {
@@ -72,9 +74,9 @@ const Gallery = () => {
         <>
             <div className={selectedAnImage ? "model open" : "model"}>
                 <img src={sourceOfSelectedImage} />
-                {/* <CloseIcon className="close" onClick={() => setSelectedAnImage(false)}/>
-                <ArrowBackIcon  className="arrowBack" onClick={() =>  handleChangeImage('back') }/>      
-                <ArrowForwardIcon className="arrowForward" onClick={() => handleChangeImage('forward') }/>       */}
+                <CloseIcon className="close" onClick={() => setSelectedAnImage(false)}/>
+                <ArrowBackIcon  className="arrowBack" onClick={() =>  handleChangeImage('back') }/>
+                <ArrowForwardIcon className="arrowForward" onClick={() => handleChangeImage('forward') }/>
 
                 {/* selectImage(images[idOfSelectedImage - 1].source, idOfSelectedImage - 1)
                 selectImage(images[idOfSelectedImage + 1].source, idOfSelectedImage + 1) */}

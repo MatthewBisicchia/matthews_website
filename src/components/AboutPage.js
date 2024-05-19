@@ -35,7 +35,7 @@ const AboutPage = () => {
                 </p>
                 
                 <p>
-                    I programmed this website with React.js, and hosting it with a basic Node application in Amazon Web Services.
+                    I programmed this website with React.js, and hosting it statically with GitHub pages (hence the slower loading time).
                 </p>
 
                 {/* <p>
@@ -45,7 +45,7 @@ const AboutPage = () => {
                 </p> */}
 
                 <p>
-                    I like to cook (check out the <a href='https://www.matthew-bisicchia.com/cooking'>Cooking</a> page of this site).
+                    I like to cook (check out the <a href='https://matthewbisicchia.github.io/site/#cooking'>Cooking</a> page of this site).
                 </p>
                 {/* <p>
                     I also enjoy DIY projects. In 2017, my grandfather and I installed hardwood floors in our house, and we also installed 
