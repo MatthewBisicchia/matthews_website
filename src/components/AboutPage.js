@@ -17,6 +17,8 @@ const AboutPage = () => {
 
             <div style={{ fontSize: '15px', fontFamily: 'Arial', margin: '20px', fontWeight: 'bold', textAlign: 'center' }}> Click <a className={styles.link} href={resumePDF} without rel="noopener noreferrer" target="_blank"> here </a> to view my Resume.</div>
 
+            <div style={{ fontSize: '15px', fontFamily: 'Arial', margin: '20px', fontWeight: 'bold', textAlign: 'center' }}> Click <a className={styles.link} href='https://www.linkedin.com/in/matthew-bisicchia-72339919b/'>here</a> for my LinkedIn profile.</div>
+
             <div className={styles.writing}>
 
                 <p>
