@@ -5,7 +5,7 @@ const HeaderBar = () => {
     return(
         <>
             <header id={styles.header}>
-                <div style={{color:'gold'}}><a href="https://www.matthew-bisicchia.com/" id={styles.siteName}>matthew-bisicchia.com</a></div>
+                <div style={{color:'gold'}}><a href="https://matthewbisicchia.github.io/matthews_website/#home" id={styles.siteName}>Matthew Bisicchia</a></div>
             </header>
         </>
     );
