@@ -1,6 +1,6 @@
 {
-  "homepage": "http://MatthewBisicchia.github.io/matthews_website",
-  "name": "matthews_website",
+  "homepage": "http://MatthewBisicchia.github.io/site",
+  "name": "site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
